@@ -17,3 +17,8 @@ output "state_data_host_organization" {
     description = "The name of the state data bucket"
     value       = var.tags.Organization
 }
+
+output "state_update_at" {
+    description = "The timestamp of the last state update"
+    value       = timestamp()
+}
