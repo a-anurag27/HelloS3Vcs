@@ -5,7 +5,15 @@ terraform {
       version = "~> 5.0"
     }
   }
+
+  backend remote {
+    organization = "SujaysTerraformLab"
+    workspaces {
+      name = "HelloS3Vcs"
+    }
+  }
 }
+
 
 provider "aws" {
   region = var.region
