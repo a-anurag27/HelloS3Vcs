@@ -13,12 +13,6 @@ variable "bucket_name" {
 variable "tags" {
   description = "A map of tags to assign to the bucket"
   type = map(string)
-  default = {
-    CanDelete          = "true"
-    Organization       = "SujaysTerraformLab"
-    Workspace          = "HelloS3Vcs"
-    ManagedBy          = "Terraform"
-  }
 }
 
 variable "enable_versioning" {
