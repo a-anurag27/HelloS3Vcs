@@ -1,6 +1,5 @@
 # Local .terraform directories
 **/.terraform/*
-.terraform.lock.hcl
 
 # .tfstate files
 *.tfstate
@@ -40,3 +39,4 @@ terraform.rc
 
 # Ignore the stacks related files
 tf-stack-poc
+configs
