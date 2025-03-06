@@ -12,13 +12,11 @@ terraform {
   }
 
   backend remote {
-    organization = "SujaysTerraformLab"
+    organization = "AnuragInit"
     workspaces {
       name = "workspace01"
     }
   }
-
-    required_version = "~>1.10"
 }
 
 
