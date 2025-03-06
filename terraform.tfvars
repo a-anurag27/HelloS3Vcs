@@ -4,7 +4,7 @@ enable_versioning = true
 enable_encryption = true
 tags = {
   CanDelete    = "true"
-  Organization = "SujaysTerraformLab"
+  Organization = "AnuragInit"
   Project      = "HelloS3Vcs"
   ManagedBy    = "Terraform"
 }
